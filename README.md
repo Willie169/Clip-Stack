@@ -2,7 +2,7 @@
 
 ## Fork
 
-This is a fork of [heruoxin's Clip-Stack](https://github.com/heruoxin/Clip-Stack) by [Willie Shen](https://github.com/Willie169).
+This is a fork of [heruoxin's Clip-Stack](https://github.com/heruoxin/Clip-Stack), forked by [Willie Shen](https://github.com/Willie169).
 
 ## Features
 
