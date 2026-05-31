@@ -2,52 +2,45 @@
 
 ## Fork
 
-This is a fork of [heruoxin's Clip-Stack](https://github.com/heruoxin/Clip-Stack).
+This is a fork of [heruoxin's Clip-Stack](https://github.com/heruoxin/Clip-Stack) by [Willie Shen](https://github.com/Willie169).
 
 ## A tiny clipboard history manager app.
 
-![screenshot](http://ww4.sinaimg.cn/large/66cab368gw1ep3ki6o4yzj21eq0h67am.jpg)
-
 ### Unlimited Clips
 
-📌 Clip Stack can remember all your clipboard history and make them survive reboots. 
+Clip Stack can remember all your clipboard history and make them survive reboots. 
 
 ### Easy to Manage
 
-📌 Easy to search, edit, and delete by a simple swipe gesture. You can also export history into a plain-text file.
+Easy to search, edit, and delete by a simple swipe gesture. You can also export history into a plain-text file.
 
 ### Useful Notification
 
-📌 It can show your clipboard history in a simple notification. Help you switch between clips and paste them easily when typing. Will only show when new text copied.
+It can show your clipboard history in a simple notification. Help you switch between clips and paste them easily when typing. Will only show when new text copied.
 
 ### Easy to Share
 
-📌 Any clips are shareable. You can easily share clips to many apps such as Email, SMS/MMS, Twitter, and more.
+Any clips are shareable. You can easily share clips to many apps such as Email, SMS/MMS, Twitter, and more.
 
 ### Material Design
 
-📌 Full material design, not only color & icon.
+Full material design, not only color & icon.
 
 ### Auto Clean Up
 
-📌 Using Android 🍭Lollipop's new JobScheduler API, Clip Stack can automatic clean up its cache and RAM when phone is being charged. 
+Using Android Lollipop's JobScheduler API, Clip Stack can automatic clean up its cache and RAM when phone is being charged. 
 
 ### Other Features
 
-✓ Gratis
-✓ Free/Libre and Open-Source
-✓ No-Ads
-
-- Support Android 4.0 above and work better with Android 🍭Lollipop. 👍
+- Gratis
+- Free/Libre and Open-Source
+- No-Ads
+- Support Android 4.0 and above and work better for Android 5.0 and above.
 
 ### Permission Usage
 
-RECEIVE_BOOT_COMPLETED:  Start a background service to listen to clipboard changes. It only costs 4.5M - 6M RAM. You can disable it in Settings if you really don't want it.
-
-
-WRITE_EXTERNAL_STORAGE and READ_EXTERNAL_STORAGE:  For exporting clipboard history. This app won't write any other files to your SD card.
-
------
+- `RECEIVE_BOOT_COMPLETED`:  Start a background service to listen to clipboard changes. It only costs 4.5M - 6M RAM. You can disable it in Settings if you really don't want it.
+- `WRITE_EXTERNAL_STORAGE` and READ_EXTERNAL_STORAGE:  For exporting clipboard history. This app won't write any other files to your SD card.
 
 ## Credits
 
@@ -63,57 +56,9 @@ WRITE_EXTERNAL_STORAGE and READ_EXTERNAL_STORAGE:  For exporting clipboard histo
 * [French: RyDroid](https://github.com/heruoxin/Clip-Stack/pull/10)
 * [Korean: 준모](https://twitter.com/cns_)
 * [Japanese: 厨二病少女699](http://weibo.com/ikaemon)
+* [Spanish: Guillem](https://github.com/Usak)
+* [Russian: Владислав Сухов](https://github.com/Vladislav4KZ)
 
 ##License
 
-This application is comprised of two parts:
-
-1. The Java code are licensed under the MIT license;
-2. All rights of other parts, including but not limited to the icons, images, and UI designs are reserved.
-
-
------
-
-剪纸堆
-
-##一个超轻量级剪贴板历史记录管理软件。
-
-
-###无限保存剪贴板历史
-
-📌 剪纸堆会自动保留您复制过的每一段文字。就算重启后也会自动恢复。
-
-###易于管理
-
-📌 无论添加、搜索、编辑还是全部清空，都非常容易。而轻轻滑动即可逐条删除。
-
-###有用的扩展通知
-
-📌 当您可能要输入文字的时候，您最近的6条剪贴板记录会悄悄出现在通知栏上。您能在其中自由切换和粘贴。当不需要时，轻滑即可消去。
-
-###自由分享
-
-📌 每一条剪贴板记录都能分享给其他的程序，诸如 Twitter、Gmail、 Evernote、微信、QQ……
-
-###Material Design
-
-📌 不仅图标和颜色，剪纸堆的每一个细节都遵循 Material Design 设计标准。尽我可能地利用了 Android 🍭Lollipop 的新特性。
-
-###自动清理
-
-📌 当手机持续处于充电状态几分钟后，剪纸堆会悄悄自动清理自己的缓存数据，和内存占用，——这全归功于 Android 🍭Lollipop 的全新定时任务 API
-
-
-###其他特性
-
-✓  免费 ✓  开源 ✓  无广告
-
-- 支持 4.0 以上的所有版本 Android 系统，与 Android 5.0🍭Lollipop 最为搭配。
-
-###权限说明
-
-本程序共使用 2 组权限：
-
-RECEIVE_BOOT_COMPLETED： 开机时启动后台服务以记录剪贴板。据网友反馈服务仅占用 4.5M 到 6M 左右的运行内存。不影响电池续航。真的不想要的话，可以在设置里关闭。
-
-WRITE_EXTERNAL_STORAGE 以及 READ_EXTERNAL_STORAGE： 仅在「导出历史记录」情况下会用到。除此之外不会在存储卡中写入任何文件。
+This application is licensed under the MIT license;
