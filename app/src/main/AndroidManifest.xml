@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.catchingnow.tinyclipboardmanager" >
+    package="com.willie.tinyclipboardmanager" >
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -23,7 +23,7 @@
             android:enabled="true"
             android:exported="true" >
             <intent-filter>
-                <action android:name="com.catchingnow.tinyclipboardmanager.CBWatcherService" />
+                <action android:name="com.willie.tinyclipboardmanager.CBWatcherService" />
             </intent-filter>
         </service>
         <service
@@ -101,7 +101,7 @@
             android:theme="@style/AppDialogWhenLargeTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.catchingnow.tinyclipboardmanager.ActivityMain" />
+                android:value="com.willie.tinyclipboardmanager.ActivityMain" />
         </activity>
         <activity
             android:name=".ActivityBackupNew"
@@ -110,7 +110,7 @@
             android:theme="@style/AppDialogWhenLargeTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.catchingnow.tinyclipboardmanager.ActivityBackup" />
+                android:value="com.willie.tinyclipboardmanager.ActivityBackup" />
         </activity>
 
         <receiver android:name=".AppWidget" >

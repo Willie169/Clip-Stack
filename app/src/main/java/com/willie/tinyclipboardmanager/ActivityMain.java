@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.willie.tinyclipboardmanager;
 
 import android.animation.Animator;
 import android.app.AlertDialog;
@@ -465,7 +465,7 @@ public class ActivityMain extends MyActionBarActivity {
                     case 6:
                         Intent browserIntent = new Intent(
                                 Intent.ACTION_VIEW,
-                                Uri.parse("https://play.google.com/store/apps/details?id=com.catchingnow.tinyclipboardmanager")
+                                Uri.parse("https://play.google.com/store/apps/details?id=com.willie.tinyclipboardmanager")
                         );
                         startActivity(browserIntent);
                         Toast.makeText(

@@ -4,46 +4,25 @@
 
 This is a fork of [heruoxin's Clip-Stack](https://github.com/heruoxin/Clip-Stack) by [Willie Shen](https://github.com/Willie169).
 
-## A tiny clipboard history manager app.
+## Features
 
-### Unlimited Clips
-
-Clip Stack can remember all your clipboard history and make them survive reboots. 
-
-### Easy to Manage
-
-Easy to search, edit, and delete by a simple swipe gesture. You can also export history into a plain-text file.
-
-### Useful Notification
-
-It can show your clipboard history in a simple notification. Help you switch between clips and paste them easily when typing. Will only show when new text copied.
-
-### Easy to Share
-
-Any clips are shareable. You can easily share clips to many apps such as Email, SMS/MMS, Twitter, and more.
-
-### Material Design
-
-Full material design, not only color & icon.
-
-### Auto Clean Up
-
-Using Android Lollipop's JobScheduler API, Clip Stack can automatic clean up its cache and RAM when phone is being charged. 
-
-### Other Features
-
-- Gratis
-- Free/Libre and Open-Source
-- No-Ads
+- Remember clipboard history.
+- Make clipboard history survive reboots. 
+- Search, edit, and delete clipboard items with swipe gesture.
+- Export clipboard history to text file.
+- Show clipboard history in a notification.
+- Share clipboard items to other apps.
+- Automatically clean up this app's cache and RAM. 
 - Support Android 4.0 and above and work better for Android 5.0 and above.
 
-### Permission Usage
+## Permission Usage
 
-- `RECEIVE_BOOT_COMPLETED`:  Start a background service to listen to clipboard changes. It only costs 4.5M - 6M RAM. You can disable it in Settings if you really don't want it.
-- `WRITE_EXTERNAL_STORAGE` and READ_EXTERNAL_STORAGE:  For exporting clipboard history. This app won't write any other files to your SD card.
+- `RECEIVE_BOOT_COMPLETED`:  Start a background service to listen to clipboard changes. You can disable it in Settings if you don't want it.
+- `WRITE_EXTERNAL_STORAGE` and `READ_EXTERNAL_STORAGE`:  Only for exporting clipboard history.
 
 ## Credits
 
+* [heruoxin/Clip-Stack](https://github.com/heruoxin/Clip-Stack)
 * [nispok/Snackbar](https://github.com/nispok/snackbar)
 * [brnunes/SwipeableRecyclerView](https://github.com/brnunes/SwipeableRecyclerView)
 * [EatHeat/FloatingExample](https://github.com/EatHeat/FloatingExample)
@@ -59,6 +38,6 @@ Using Android Lollipop's JobScheduler API, Clip Stack can automatic clean up its
 * [Spanish: Guillem](https://github.com/Usak)
 * [Russian: Владислав Сухов](https://github.com/Vladislav4KZ)
 
-##License
+## License
 
-This application is licensed under the MIT license;
+This application is licensed under the MIT license. Refer to [LICENSE.txt](LICENSE.txt).

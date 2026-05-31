@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.willie.tinyclipboardmanager;
 
 import android.annotation.TargetApi;
 import android.app.Notification;
@@ -33,11 +33,11 @@ import java.util.List;
 
 public class CBWatcherService extends Service {
 
-    public final static String INTENT_EXTRA_FORCE_SHOW_NOTIFICATION = "com.catchingnow.tinyclipboardmanager.EXTRA.FORCE_SHOW_NOTIFICATION";
-    public final static String INTENT_EXTRA_MY_ACTIVITY_ON_FOREGROUND_MESSAGE = "com.catchingnow.tinyclipboardmanager.EXTRA.MY_ACTIVITY_ON_FOREGROUND_MESSAGE";
-    public final static String INTENT_EXTRA_CHANGE_STAR_STATUES = "com.catchingnow.tinyclipboardmanager.EXTRA.CHANGE_STAR_STATUES";
-    public final static String INTENT_EXTRA_TEMPORARY_STOP = "com.catchingnow.tinyclipboardmanager.EXTRA.TEMPORARY_STOP";
-    public final static String INTENT_EXTRA_CHECK_CLIPBOARD_NOW = "com.catchingnow.tinyclipboardmanager.EXTRA.CHECK_CLIPBOARD_NOW";
+    public final static String INTENT_EXTRA_FORCE_SHOW_NOTIFICATION = "com.willie.tinyclipboardmanager.EXTRA.FORCE_SHOW_NOTIFICATION";
+    public final static String INTENT_EXTRA_MY_ACTIVITY_ON_FOREGROUND_MESSAGE = "com.willie.tinyclipboardmanager.EXTRA.MY_ACTIVITY_ON_FOREGROUND_MESSAGE";
+    public final static String INTENT_EXTRA_CHANGE_STAR_STATUES = "com.willie.tinyclipboardmanager.EXTRA.CHANGE_STAR_STATUES";
+    public final static String INTENT_EXTRA_TEMPORARY_STOP = "com.willie.tinyclipboardmanager.EXTRA.TEMPORARY_STOP";
+    public final static String INTENT_EXTRA_CHECK_CLIPBOARD_NOW = "com.willie.tinyclipboardmanager.EXTRA.CHECK_CLIPBOARD_NOW";
 
     public final static String ON_DESTROY = "onCBWatcherServiceDestroy";
 

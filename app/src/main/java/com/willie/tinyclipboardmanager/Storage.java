@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.willie.tinyclipboardmanager;
 
 import android.content.ClipboardManager;
 import android.content.ContentValues;

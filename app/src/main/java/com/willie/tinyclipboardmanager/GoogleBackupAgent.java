@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.willie.tinyclipboardmanager;
 
 import android.app.backup.BackupAgentHelper;
 import android.app.backup.FileBackupHelper;
@@ -14,7 +14,7 @@ import java.io.File;
 public class GoogleBackupAgent extends BackupAgentHelper {
     static final String BACKUP_PREFERENCE = "backup_preference";
     static final String BACKUP_DATABASE = "backup_database";
-    static final String DEFAULT_PREFERENCE = "com.catchingnow.tinyclipboardmanager_preferences";
+    static final String DEFAULT_PREFERENCE = "com.willie.tinyclipboardmanager_preferences";
 
     @Override
     public void onCreate() {

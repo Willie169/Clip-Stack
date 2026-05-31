@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.willie.tinyclipboardmanager;
 
 import android.accessibilityservice.AccessibilityServiceInfo;
 import android.app.ActivityManager;
