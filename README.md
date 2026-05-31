@@ -40,4 +40,6 @@ This is a fork of [heruoxin's Clip-Stack](https://github.com/heruoxin/Clip-Stack
 
 ## License
 
-This application is licensed under the MIT license. Refer to [LICENSE.txt](LICENSE.txt).
+- [app/src/main/res](app/src/main/res) is heruoxin's proprietary work and is not part of this project. It will be removed from the repo once I complete my independent version of it.
+- The original Java code of [heruoxin/Clip-Stack](https://github.com/heruoxin/Clip-Stack) is licensed under MIT license.
+- This project is licensed under GPL-3.0-or-later. Refer to [LICENSE.txt](LICENSE.txt).
